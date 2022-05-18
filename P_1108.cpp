@@ -26,6 +26,7 @@ int main()
 {
     Solution obj;
     string address;
+    cout << "Please provide your input address: \n";
     cin >> address;
     cout << "Output is \n" + obj.defangIPaddr(address);
 }
